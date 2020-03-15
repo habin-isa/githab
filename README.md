@@ -1,4 +1,5 @@
 # React haboilerplate
+
 ### Base for future React project with simple dependencies
 
 ### To run the project
@@ -12,6 +13,7 @@
 ### Tech
 
 - React CLI
-- Styled Components
+- Pretty-quick
+  <!-- - Styled Components
 - Axios
-- Babel - eslint - prettier
+- Babel - eslint - prettier -->
