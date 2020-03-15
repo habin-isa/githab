@@ -10,10 +10,17 @@
 - \$ yarn start
 - Change name of remote and git remote to use as boilerplate for another project
 
+### Examples contained
+
+- Styled components
+- Jest testing
+- Proptypes
+
 ### Tech
 
 - React CLI
 - Pretty-quick
-  <!-- - Styled Components
+- Styled components
+- Jest
 - Axios
-- Babel - eslint - prettier -->
+- Babel/EsLint
