@@ -9,8 +9,13 @@ const App = () => {
 export default App;
 
 // If props were drilled into App component
-// E.g. const App = ({ propName })
+// E.g. const App = ({ propName, propTwo })
 
 // App.propTypes = {
-//   propName: string
+//   propName: string,
+//   propTwo: string.isRequired
+// };
+
+// App.defaultTypes = {
+//   propName: 'Kimmy'
 // };
