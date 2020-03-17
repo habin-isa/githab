@@ -16,6 +16,6 @@ export default App;
 //   propTwo: string.isRequired
 // };
 
-// App.defaultTypes = {
+// App.defaultProps = {
 //   propName: 'Kimmy'
 // };
