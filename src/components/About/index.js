@@ -1,7 +1,7 @@
 import React from 'react';
 import * as S from './styles';
 import IconCol from '../IconCol';
-import portraitImg from './assets/portrait.png';
+import portraitImg from './assets/portrait.jpg';
 
 // import { string } from 'prop-types';
 
