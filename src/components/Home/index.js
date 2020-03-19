@@ -1,16 +1,17 @@
 import React from 'react';
 import * as S from './styles';
+import IconCol from '../IconCol';
+
 // import { string } from 'prop-types';
 
 const Home = () => {
   return (
     <S.Wrapper>
-      <S.LeftCol>Browse the c0de</S.LeftCol>
+      <S.TitleCol>
+        <S.Link href="https://github.com/habin-isa/githab">Browse the c0de</S.Link>
+      </S.TitleCol>
       <S.Container />
-      <S.RightCol>
-        <div>Icons</div>
-        <div>Arrow</div>
-      </S.RightCol>
+      <IconCol />
     </S.Wrapper>
   );
 };

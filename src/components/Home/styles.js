@@ -6,18 +6,7 @@ export const Wrapper = styled.div`
   width: 100%;
   height: 100vh;
   margin: 35px;
-`;
-
-export const LeftCol = styled.div`
-  padding-top: 15px;
-  color: #01bf1b;
-  // font-family: Avenir;
-  font-size: 12px;
-  font-weight: 900;
-  letter-spacing: 0.24px;
-  line-height: 26px;
-  min-width: 200px;
-  width: 10%;
+  padding-top: 30px;
 `;
 
 export const Container = styled.div`
@@ -28,12 +17,21 @@ export const Container = styled.div`
   height: 780px;
 `;
 
-export const RightCol = styled.div`
+export const TitleCol = styled.div`
   padding-top: 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  color: #01bf1b;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.24px;
+  line-height: 26px;
   min-width: 200px;
-  text-align: center;
   width: 20%;
+`;
+
+export const Link = styled.a`
+  text-decoration: none;
+  color: #01bf1b;
+  &:hover {
+    color: #d700d4;
+  }
 `;
