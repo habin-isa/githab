@@ -23,4 +23,4 @@ http://githab-world.herokuapp.com/
 - Jest
 - Axios
 - Babel/EsLint
-- React-page-scroller
+- react-page-scroller

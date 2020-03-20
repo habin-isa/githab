@@ -37,14 +37,58 @@ export const Container = styled.div`
 
 export const LeftCol = styled.div`
   width: 100%;
-  padding: 0 8%;
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 52%;
+`;
+
+export const ProjectsContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.24px;
+  line-height: 16px;
+  margin-bottom: 40px;
+`;
+
+export const ProjectsTitle = styled.div`
+  text-align: justify;
+`;
+
+export const ProjectLinks = styled.div`
+  padding-top: 20px;
+`;
+
+export const AppLink = styled.a`
+  color: #d700d4;
+  text-decoration: none;
+  &:hover {
+    color: #3f3f3f;
+  }
+`;
+
+export const GithubLink = styled.a`
+  color: #01bf1b;
+  text-decoration: none;
+  padding-left: 10px;
+  &:hover {
+    color: grey;
+  }
 `;
 
 export const RightCol = styled.div`
   width: 100%;
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
   height: 100%;
-  align-items: flex-start;
-  padding: 0 8%;
 `;
 
 export const RightTitle = styled.div`
@@ -55,4 +99,5 @@ export const RightTitle = styled.div`
   line-height: 26px;
   text-align: right;
   padding-top: 50px;
+  padding-bottom: 85px;
 `;
