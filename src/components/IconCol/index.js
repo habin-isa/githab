@@ -3,7 +3,7 @@ import * as S from './styles';
 import githubIcon from './assets/github.png';
 import emailIcon from './assets/email.png';
 import linkedinIcon from './assets/linkedin.png';
-import arrow from './assets/arrow-down.png';
+// import arrow from './assets/arrow-down.png';
 
 // import { string } from 'prop-types';
 
