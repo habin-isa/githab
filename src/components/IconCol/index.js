@@ -21,7 +21,7 @@ const IconCol = () => {
           <S.Icon src={linkedinIcon} alt="linkedin-icon" />
         </S.Link>
       </S.IconContainer>
-      <S.Arrow src={arrow} alt="arrow-icon" />
+      {/* <S.Arrow src={arrow} alt="arrow-icon" /> */}
     </S.Wrapper>
   );
 };

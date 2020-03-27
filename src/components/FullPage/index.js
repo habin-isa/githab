@@ -41,11 +41,11 @@ const FullPage = () => {
           <Home />
           <About />
           <Projects />
-          <Installations />
+          {/* <Installations /> */}
         </ReactPageScroller>
-        <Pager className="pagination-additional-class" bsSize="large">
-          {pagesNumbers}
-        </Pager>
+        {/* <Pager className="pagination-additional-class" bsSize="large">
+					{pagesNumbers}
+				</Pager> */}
       </React.Fragment>
     </S.Wrapper>
   );
